@@ -1,6 +1,7 @@
-function multiply(a, b){
-  return a * b;
-}
+const seasons = ["spring", "summer", "fall"];
+const length = seasons.length;
 
-const result = multiply(2, 4);
-console.log(result);
+seasons.push("winter");
+
+console.log(length);
+console.log(seasons.length);
